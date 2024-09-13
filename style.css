@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+body
+    {
+        font-family: "Protest Guerrilla", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+      /* Flexbox Header */
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #333;
+        color: white;
+        padding: 20px;
+      }
+
+      .header .logo {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+.navbar u1 {
+    list-style: none;
+    display: flex;
+}
+
+.navbar u1 li {
+    margin-left: 20px;
+
+}
+
+.navbar u1 li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+
+}
+
+.navbar u1 li a:hover {
+    background-color:#555;
+
+}
+
+/* CSS Grid for Main Conten and Sidebar */
+
+.grid
+
+
+  
