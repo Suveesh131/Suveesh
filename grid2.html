@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature Lovers Gallery</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 1fr 3fr;
+    gap: 20px;
+    padding: 10px;
+}
+
+.gallery-item {
+    background-color: rgb(228, 195, 195);
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 15px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 150px;
+    display: grid;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.gallery-item p {
+    font-size: 20px;
+    color: #555;
+}
+    </style>
+</head>
+<body>
+    <h1>Nature Images Gallery</h1>
+    <div class="gallery-grid">
+        <div class="gallery-item">
+            <img src="image1.jpeg" alt="Nature 1">
+            <p>Nature 1</p>
+            <p>Price: 500</p>
+        </div>
+        <div class="gallery-item">
+            <img src="image2.jpeg" alt="Nature 2">
+            <p>Nature 2</p>
+            <p>Price: 1000</p>
+        </div>
+        <div class="gallery-item">
+            <img src="image3.jpeg" alt="Nature 3">
+            <p>Nature 3</p>
+            <p>Price: 1500</p>
+        </div>
+        <div class="gallery-item">
+            <img src="image4.jpeg" alt="Nature 4">
+            <p>Nature 4</p>
+            <p>Price: 2000</p>
+        </div>
+        <div class="gallery-item">
+            <img src="image5.jpeg" alt="Nature 5">
+            <p>Nature 5</p>
+            <p>Price: 2500</p>
+        </div>
+        <div class="gallery-item">
+            <img src="image6.jpeg" alt="Nature 6">
+            <p>Nature 6</p>
+            <p>Price: 3000</p>
+        </div>
+    </div>
+</body>
+</html>
